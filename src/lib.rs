@@ -14,7 +14,7 @@
     non_upper_case_globals
 )]
 #![no_std]
-
+#![feature(rustc_private)]
 #[macro_use]
 extern crate cfg_if;
 extern crate libc;

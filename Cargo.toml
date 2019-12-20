@@ -28,10 +28,10 @@ test = false
 bench = false
 
 [dependencies]
-libc = { version = "0.2", default-features = false }
 cfg-if = "^0.1"
 
 [build-dependencies]
+libc = { version = "0.2", default-features = false }
 cmake = "^0.1"
 bindgen = "^0.51"
 env_logger = "0.6"
